@@ -45,7 +45,7 @@ shinyUI(fluidPage(
                              checkboxInput('getcor', label = 'Correlation coefficient', value = FALSE)
                 ),
                 mainPanel(
-                        plotOutput('myPlot'),
+                        plotOutput('myPlot', height = 500),
                         br(),
                         br(),
                         textOutput('corText')
